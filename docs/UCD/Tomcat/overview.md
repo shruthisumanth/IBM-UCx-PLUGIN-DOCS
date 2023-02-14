@@ -30,7 +30,7 @@ No special steps are required for installation. See [Installing plug-ins in Urba
 
 #### Version 8
 
-* Updated log4j dependency .
+* Updated log4j dependency.
 
 #### Version 6.718095
 
