@@ -6,7 +6,7 @@ The GitLab Generic Packages automtion plug-in.
 
 ### Compatibility
 
-This plug-in requires UrbanCode Deploy version 7.3.1 or newer.
+This plug-in requires UrbanCode Deploy version 6.2.7.3 or newer.
 
 This plug-in supports all versions of the GitLab Generic Packages.
 
