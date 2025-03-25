@@ -13,6 +13,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 ## History
 
+### Version 1.0.5
+
+* **Bug fix**: APIs for retrieving PR comments and event timelines have been re-enabled, restoring functionality for the Pull Request schedule event in the Control Plug-in.
+
 ### Version 1.0.4
 
 * **Rebranding**: Name of the plugin is changed from Control to DevOps Control.
@@ -23,4 +27,4 @@ IBM DevOps Velocity plug-in images are located in DockerHub. To view available v
 
 |Back to ...||Latest Version|IBM DevOps Control |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
