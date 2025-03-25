@@ -78,7 +78,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Name | Type | Description | Required | Project Name |
 | --- | --- | --- | --- | --- |
 | API URL | String | The URL to the REST API for the IBM DevOps Control instance. | Yes | apiUrl |
-| Owner | String | The owner's name of the IBM DevOps Control repository. | Yes | owner |
+| Organization | String | The organization name of the IBM DevOps Control repository. | Yes | organization |
 | Repositories | Array | Comma separated list of IBM DevOps Control Repository names (separated by comma). | Yes | repositories |
 | Branch | String | IBM DevOps Control repositories branch, the branch to pull commits from. | No | branch |
 | Personal access token | String | The token to use to authenticate with the IBM DevOps Control repository. | Yes | token |
@@ -98,7 +98,7 @@ The following sample code can be used as a template to define the integration wi
     "tenant_id":"tenant-id",
     "name":"control-integration-name",
     "properties":{
-        "owner":"owner-name",
+        "organization":"organization",
         "repositories":[ 
             "repo1",
             "repo2",
@@ -117,4 +117,4 @@ The following sample code can be used as a template to define the integration wi
 
 |Back to ...||Latest Version|IBM DevOps Control |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.4-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.001)[and 1.0.4-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.4.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.5-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001)[and 1.0.5-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
