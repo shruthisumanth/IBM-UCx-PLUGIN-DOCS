@@ -60,29 +60,11 @@ The following tables describe the properties used to configure the integration. 
 | --- | --- | --- | --- | --- |
 | DevOps Velocity User Access Key | Secure | The user access key to authenticate with the DevOps Velocity server. This property is not available starting with version 1.0.18 of the plugin. | Yes | ucvAccessKey |
 | URL | String | The URL and port of the DevOps Plan server. | Yes | serverUrl |
-| Username | String | The user name to authenticate with the DevOps Plan server. | Yes | userName |
-| Password | Secure | The password to authenticate with the DevOps Plan server. | No | password |
-| Repo | String | The repository name of the DevOps Plan project. | Yes | repo |
-| Database | String | The name of the DevOps Plan database from where the data to be pulled. | Yes | db |
-| Custom Field Mapping | Multiline | Map DevOps Plan fields to Velocity as a JSON Object.| Yes | fieldMapping |
-| DevOps Plan Server Timezone | Dropdown | The time zone offset from the Coordinated Universal Time (UTC). | Yes | timezone |
+| Personal Access Token | Secure | Personal Access Token to authenticate with an application in DevOps Plan. | Yes | pat |
+| Team Space | String | Team Space Id of the DevOps Plan tenant. | Yes | repo |
+| Application Name | String | The name of the DevOps Plan Application. | Yes | db |
+| DevOps Plan Server Timezone | Dropdown | The time zone offset from the Coordinated Universal Time (UTC). For example, if the plan server timezone is Asia/Kolkata select UTC+05:30| Yes | timezone |
 | Import issues or work items from a specified number of months | String | Issues or work items are imported for the specified number of months when the plugin runs for the first time. | No | since |
-
-### Custom mapping field properties
-
-Custom mapping fields are not required because mappings can be derived from the DevOps Plan JSON data. However, when specifying custom mapping fields, they must be provided through the DevOps Plan configuration or the DevOps Velocity Create Integration form. The Create Integration form takes precedence.
-
-| Property Name | Description |
-| --- | --- |
-| type | The type of work item. For example: Defect. |
-| name | The name or headline in DevOps Plan. |
-| creator | The creator of the work item. For example: submitter or created by field in HCL DevOps Plan. |
-| owner | The owner of the work item. This can be the Owner field in HCL DevOps Plan. |
-| priority | The priority of the work item. This can be the Priority or Hierarchy field in HCL DevOps Plan. |
-| description | The description or headline in HCL DevOps Plan. |
-| children | This field is applicable for work items of type Feature only. This field can be used to specify the Stories under the Feature. |
-| parent | This field is applicable for work items of type Story only. This field can be used to specify the Feature for the Story. |
-
 
 ## Example
 
@@ -102,12 +84,10 @@ Example Integration for type Defect
     "properties": {
       "ucvAccessKey": "<User Access Key>",
       "serverUrl": "<server-url>",
-      "userName": "<username>",
-      "password": "<password>",
+      "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "fieldMapping": "[{\"type\": \"Defect\", \"fieldMapping\": {\"name\": \"Owner\", \"creator\": \"Submitter\", \"owner\": \"Owner\", \"priority\": \"Priority\", \"description\": \"Description\"}}]",
-      "timezone": "<timezone>"
+      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
@@ -124,12 +104,10 @@ Example Integration for type Feature
     "properties": {
       "ucvAccessKey": "<User Access Key>",
       "serverUrl": "<server-url>",
-      "userName": "<username>",
-      "password": "<password>",
+      "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "fieldMapping": "[{\"type\": \"Feature\", \"fieldMapping\": {\"name\": \"Owner\", \"creator\": \"Submitter\", \"owner\": \"Owner\", \"priority\": \"Priority\", \"description\": \"Description\", \"children\": \"Stories\"}}]",
-      "timezone": "<timezone>"
+      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
@@ -146,12 +124,10 @@ Example Integration for type Story
     "properties": {
       "ucvAccessKey": "<User Access Key>",
       "serverUrl": "<server-url>",
-      "userName": "<username>",
-      "password": "<password>",
+      "pat": "<personal-access-token>",
       "repo": "<repo>",
       "db": "<db>",
-      "fieldMapping": "[{\"type\": \"Story\", \"fieldMapping\": {\"name\": \"Owner\", \"creator\": \"Submitter\", \"owner\": \"Owner\", \"priority\": \"Priority\", \"description\": \"Description\", \"parent\": \"Feature\"}}]",
-      "timezone": "<timezone>"
+      "timezone": "<timezone>",
       "since": "<since>"
     }
   }
