@@ -21,7 +21,7 @@ DevOps Velocity plug-in images are located in DockerHub. To view available versi
 
 ### Version 1.1.57
 
-* **Feature enhancement**: We have enhanced the DevOps Plan plug-in integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience.
+* **Feature enhancement**: Enhanced the DevOps Plan plug-in integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience.
 
 ### Version 1.1.55
 
