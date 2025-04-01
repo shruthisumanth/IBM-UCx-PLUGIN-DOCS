@@ -16,6 +16,10 @@ IBM DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps V
 
 ## History
 
+### Version 1.1.13
+
+* **Feature enhancement**: ServiceNow now supports user-defined fields, to enable mapping of these fields to Velocity fields, a custom field mapping option is introduced within the ServiceNow plug-in. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary.
+
 ### Version 1.1.11
 
 * **Replica Server Name field addition**: The index.js file now contains a replica server name field. Entering any non-empty string value in this field will enable the read-only replica.
@@ -109,4 +113,4 @@ Implemented OAuth 2.0 authentication for secure communication with third-party s
 
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.11-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.001)[and 1.1.11-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|
+|[All plug-ins](../../index.md)|[Velocity plug-ins](../README.md)|[1.1.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.001)[and 1.1.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.002)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)|

@@ -144,6 +144,44 @@ After the plug-in is integrated automated tasks are available to add as a task w
 * Complete the properties required for the task.
 * Click **Save**.
 
+## Custom field mapping
+
+* ServiceNow now supports user-defined fields, to enable mapping of these fields to Velocity fields, a custom field mapping option is introduced within the ServiceNow plug-in. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary.
+
+For example
+
+```
+[
+  {
+    "type": "change_request",
+    "fieldMapping": {
+      "changeType": "u_deployment_category"
+    },
+    "valueMapping": {
+      "resolution": {
+        "failed": ["unsuccessful", "rejected"]
+      }
+    }
+  }
+]
+
+```
+
+In the above custom mapping configuration example, we are defining a mapping for the change_request resource in ServiceNow. The custom mapping ensures that specific fields from the velocity system are appropriately mapped to corresponding fields in ServiceNow.
+ 
+* Resource Type:
+
+The resource type is identified as change_request. This is the type of record in ServiceNow where we want to implement the custom mapping.
+ 
+* Field Mapping:
+
+The field changeType in the velocity system will be mapped to the field u_deployment_category in ServiceNow. This mapping ensures that when a record is transferred or synced, the changeType value will correctly correspond to the u_deployment_category field in ServiceNow.
+ 
+* Value Mapping for Resolution:
+
+The resolution field in the velocity system may currently contain values like "unsuccessful" or "rejected." After applying the custom value mapping, these values will be mapped to a standardized value of failed. This ensures that records in ServiceNow will use a consistent value for the resolution status.
+
+
 ## Configuration Properties
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
@@ -181,6 +219,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Client Secret | Secure | The client secret used for authentication with the ServiceNow server using OAuth2.0. | No | client_secret |
 | Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | No | refresh_token |
 | Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params
+| Custom Field Mapping | Json | Map ServiceNow fields to HCL DevOps Velocity as a JSON Object. | No | fieldMapping |
 
 ## Example using the access key 
 
@@ -199,6 +238,7 @@ integrations": [
         "resourceTypesAndSys_params": "[   
              { "table": "table_name"}, 
          ]"
+        "fieldMapping": "custom field mapping",
         "proxyServer": "proxy_server_url",
         "proxyUsername": "proxy_server_user_name",
         "proxyPassword": "proxy_server_password"
@@ -238,4 +278,4 @@ integrations": [
 |Back to ...||Latest Version|ServiceNow |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.11-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.001)[and 1.1.11-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.11.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.1.13-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.001)[and 1.1.13-File 2](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.13.tar.7z.002)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
