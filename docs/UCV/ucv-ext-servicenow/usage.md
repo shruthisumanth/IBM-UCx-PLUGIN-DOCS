@@ -220,6 +220,7 @@ Some properties might not be displayed in the user interface, to see all propert
 | Refresh Token | Secure | The refresh token used for authentication with the ServiceNow server using OAuth2.0. | No | refresh_token |
 | Resource types and sys_params | String | The type/parameters of events to be synced from ServiceNow. Example:[{"table": "change_request", "sys_params": { "category": "Software" }},...] | Yes | resourceTypesAndSys_params
 | Custom Field Mapping | Json | Map ServiceNow fields to HCL DevOps Velocity as a JSON Object. | No | fieldMapping |
+| Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
 
 ## Example using the access key 
 
