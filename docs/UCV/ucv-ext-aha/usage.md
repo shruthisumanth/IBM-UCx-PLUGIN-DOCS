@@ -32,6 +32,8 @@ The tables in the Configuration properties topic describe the properties used to
 3. On the Add Integration page enter values for the fields used to configure the integration and define communication.
 4. Click **Add**.
 
+![](media/picture4.png)
+
 ## Configuration properties
 
 In order to use Business Value features of Aha! there is configuration required in Aha! and DevOps Velocity (Velocity) product.
@@ -40,11 +42,15 @@ For configuring Aha!
 
 * It requires that you setup a Jira integration in your AHA! Server. Here are the instructions provided by AHA! For their Jira integration: [AHA Jira Integration](https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2) and here is what you will see and where to configure
 
+it in AHA : ![](media/Picture1.png)
+
 * After setting up an AHA! Jira integration, you can then refer back to the AHA! Documentation on how to link AHA! Items with Jira items: [AHA! Jira documentation](https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2)
 
 * It should be noted that our AHA! Integration currently only supports “Features” from AHA!. Currently, Epics and Requirements are not imported into Velocity.
 * After you have linking between AHA! Features and Jira issues, your features in AHA! will show that
 Also notice the “Product Value” field (which is set to 10 in the picture). This is the data that the Velocity AHA! Integration will import. So, your Jira linked features in AHA! will need to be configured with product values (which is the entire point of the Velocity AHA! integration.)
+
+linking: ![](media/Picture2.png)
 * The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked (https://plugins.hcltechsw.com/jira/).
 * This integration needs to be created before you setup your AHA! Integration. The AHA! Integration will use the imported Jira issues and add the “Product Value” coming from AHA! as a new field on our issues in Velocity called “Business Value”.
 * After your Velocity Jira integration is setup and importing your issues that your AHA! Jira integration is linked to, you can now setup your Velocity AHA! integration. All you need for this is the URL of your AHA! server and an API token from AHA!
@@ -58,6 +64,8 @@ Once the Aha! plug-in has been executed successfully; it is possible to observe 
 3. Click the **Search with DQL**, then click enter DQL like issue.businessValue > 0
 4. Notice all particles of work items which have business values associated with them in Aha! will show up.
 * After the AHA! integration syncs, you will notice that your imported Jira issues in Velocity now have a new field called “Business Value”. If you setup a value stream with your Velocity Jira integration, the issues in AHA! that are linked to features will show business value on their dots:
+
+![](media/Picture3.png)
 * **Note**, that you can also run DQL on the new issue.businessValue field (as you can see above, we are running issue.businessValue > 0). This also allows you to setup value stream stages with queries involving business value.
 
 ### Configuration Properties
@@ -68,6 +76,8 @@ The following tables describe the properties used to configure the integration. 
 * The Aha! plug-in Configuration Properties table describes the configuration properties that define the connection and communications with the Aha! product.
 
 Some properties might not be displayed in the user interface, to see all properties enable the **Show Hidden Properties** field.
+
+![](media/riskEstimatorHiddenProps.png)
 
 ### General Configuration properties
 
