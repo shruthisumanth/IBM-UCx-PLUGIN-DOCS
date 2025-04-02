@@ -42,7 +42,8 @@ For configuring Aha!
 
 * It requires that you setup a Jira integration in your AHA! Server. Here are the instructions provided by AHA! For their Jira integration: [AHA Jira Integration](https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2) and here is what you will see and where to configure
 
-it in AHA : ![](media/Picture1.png)
+it in AHA:
+![](media/Picture1.png)
 
 * After setting up an AHA! Jira integration, you can then refer back to the AHA! Documentation on how to link AHA! Items with Jira items: [AHA! Jira documentation](https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2)
 
@@ -50,7 +51,8 @@ it in AHA : ![](media/Picture1.png)
 * After you have linking between AHA! Features and Jira issues, your features in AHA! will show that
 Also notice the “Product Value” field (which is set to 10 in the picture). This is the data that the Velocity AHA! Integration will import. So, your Jira linked features in AHA! will need to be configured with product values (which is the entire point of the Velocity AHA! integration.)
 
-linking: ![](media/Picture2.png)
+linking:
+![](media/Picture2.png)
 * The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked (https://plugins.hcltechsw.com/jira/).
 * This integration needs to be created before you setup your AHA! Integration. The AHA! Integration will use the imported Jira issues and add the “Product Value” coming from AHA! as a new field on our issues in Velocity called “Business Value”.
 * After your Velocity Jira integration is setup and importing your issues that your AHA! Jira integration is linked to, you can now setup your Velocity AHA! integration. All you need for this is the URL of your AHA! server and an API token from AHA!
