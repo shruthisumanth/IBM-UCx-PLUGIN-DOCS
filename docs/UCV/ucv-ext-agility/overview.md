@@ -8,13 +8,13 @@ The Digital.io Agility plug-in provides the integration with Digital.io Agility 
 
 This plug-in requires the following:
 
-* DevOps Velocity
+* IBM DevOps Velocity
 Version 1.4.5 or later
 * Digital.io Agility Server Version 21.0 or later
 
 ## Versions
 
-UrbanCode Velolcity plug-in images are located in DockerHub. To view available plug-in versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-agility/tags).
+IBM DevOps Velocity plug-in images are located in DockerHub. To view available plug-in versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-agility/tags).
 
 ## History
 

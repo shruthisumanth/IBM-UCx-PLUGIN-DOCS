@@ -10,7 +10,7 @@ Must be running DevOps Velocity version 1.3.0 and later to use the plug-in. HCL 
 
 ## Versions
 
-There is no install process for this plug-in. The HCL DevOps Test Server plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
+There is no install process for this plug-in. The HCL DevOps Test Server plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-onetest-server/tags).
 
 
 ## History

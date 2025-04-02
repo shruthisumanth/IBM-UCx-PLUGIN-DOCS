@@ -9,7 +9,7 @@ Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 ## Versions
 
-There is no install process for this plug-in. The Azure DevOps plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
+There is no install process for this plug-in. The Azure DevOps plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-azure/tags).
 
 ## History
 
@@ -69,7 +69,7 @@ and removed unnecessary VSM history for improved efficiency.
 
 ### Version 4.0.3
 
-* ReSync support added. Applies to UrbanCode
+* ReSync support added. Applies to IBM DevOps
 Velocity version 2.4.4 or later.
 
 ### Version 4.0.1

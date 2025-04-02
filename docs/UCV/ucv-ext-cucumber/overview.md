@@ -9,7 +9,7 @@ This plug-in requires DevOps Velocity version 1.4.5 and later.
 
 ## Versions
 
-There is no install process for this plug-in. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-cucumber/tags).
+There is no install process for this plug-in. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-cucumber/tags).
 
 
 ## History

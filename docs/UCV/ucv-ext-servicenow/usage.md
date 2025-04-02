@@ -232,7 +232,7 @@ integrations": [
       "tenant_id": "tenant_id",
       "logginglevel": "info",
       "properties": {
-        "ucvAccessKey": "urbancodevelocity_user_accesskey",
+        "ucvAccessKey": "IBM_DevOps_velocity_user_accesskey",
         "baseUrl": "url_servicenow_server",
         "username": "user_name",
         "accessToken": "access_token",
@@ -258,7 +258,7 @@ integrations": [
       "tenant_id": "tenant_id",
       "logginglevel": "info",
       "properties": {
-        "ucvAccessKey": "urbancodevelocity_user_accesskey",
+        "ucvAccessKey": "IBM_DevOps_velocity_user_accesskey",
         "baseUrl": "url_servicenow_server",
         "client_id": "client_Id", 
         "client_secret": "client_secret",

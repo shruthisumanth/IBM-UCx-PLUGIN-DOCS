@@ -9,7 +9,7 @@ The Black Duck plug-in provides for integration with a Black Duck server. This p
 Must be running DevOps Velocity version 2.0.4 and later to use the plug-in. Black Duck Server version 2020.6.0 and later is supported.
 
 ## Versions
-There is no install process for this plug-in. The Black Duck plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-blackduck/tags).
+There is no install process for this plug-in. The Black Duck plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-blackduck/tags).
 
 # History
 
