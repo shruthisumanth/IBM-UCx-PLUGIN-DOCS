@@ -12,6 +12,7 @@
 	- [BitBucket Cloud](#bitbucket-cloud)
 	- [BitBucket Server](#bitbucket-server)
 	- [Black Duck](#black-duck)
+	- [Bottleneck Detection](#bottleneck-detection)
 	- [CircleCI](#circleci)
 	- [Code Coverage](#code-coverage)
 	- [CollabNet VersionOne](#collabnet-versionone)
@@ -117,6 +118,16 @@ Black Duck by Synopsys identifies open source related vulnerabilities in applica
 |Back to ...||Black Duck |Latest Version|
 | :---: | :---: | :---: | :---: |
 |[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-blackduck/README.md)|[1.0.17](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-blackduck/ucv-ext-blackduck-1.0.17.tar.zip)|
+
+## Bottleneck Detection
+
+The DevOps Velocity bottleneck detection plug-in monitors, detects, and alerts the user to the existence of bottlenecks in a value stream. A value stream bottleneck is a restriction in the local throughput that limits the global throughput of a system. The plug-in process uses work item stage-change data in concert with three individual algorithms in order to detect the presence of a bottleneck. Each individual algorithm monitors a value stream for the presence of a specific type of bottleneck. Detected bottlenecks are written to the metrics collection in the form of a bottleneck location (value stream and stage), detection message for display, and measure of bottleneck severity used for display prioritization.
+
+---
+
+|Back to ...||Black Duck |Latest Version|
+| :---: | :---: | :---: | :---: |
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-bottleneck-detection/README.md)|[1.0.3-File 1 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.001)[and 1.0.3-File 2 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.002)[and 1.0.3-File 3 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.003)[and 1.0.3-File 4 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.004)[and 1.0.3-File 5 ](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.005)[and 1.0.3-File 6](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.006)|
 
 ## CircleCI
 
