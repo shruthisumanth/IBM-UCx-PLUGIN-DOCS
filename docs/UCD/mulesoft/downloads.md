@@ -8,4 +8,4 @@ To download the plug-in, click the following version-specific links.
 
 |Back to ...||Latest Version|Mulesoft |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1105366](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1175635](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip)|[Readme](README.md)|[Overview](overview.md)|[Steps](steps.md)|
