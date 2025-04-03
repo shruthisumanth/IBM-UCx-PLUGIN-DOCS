@@ -17,6 +17,10 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 ### History
 
+#### Version 2
+
+* Fixed issues with methods setOutputProperties and getStepProperties of AirPluginTool.
+
 #### Version 1
 
 * Initial release
@@ -24,4 +28,4 @@ No special steps are required for installation. See [Installing plug-ins in DevO
 
 |Back to ...||Latest Version|Mulesoft |||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[1.1105366](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/plugins-mulesoft-1.1105366.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Deploy Plugins](../README.md)|[2.1175635](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip)|[Readme](README.md)|[Steps](steps.md)|[Downloads](downloads.md)|
