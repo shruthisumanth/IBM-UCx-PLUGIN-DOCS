@@ -1932,7 +1932,7 @@ MuleSoft is a middleware technology that connects an enterprise. It provides sec
 
 |Back to ...||Mulesoft |Latest Version|
 | :---: | :---: | :---: | :---: |
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](mulesoft/README.md)|[1.1105366](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](mulesoft/README.md)|[2.1175635](https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/mulesoft/ucd-plugins-mulesoft-2.1175635.zip)|
 
 ## NPM
 
