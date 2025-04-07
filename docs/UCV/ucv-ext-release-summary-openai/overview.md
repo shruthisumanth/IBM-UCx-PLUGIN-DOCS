@@ -28,10 +28,14 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### History
 
+### Version 1.0.3
+
+* **Feature enhancement** : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins.
+
 ### Version 1.0.1
 
 * Initial release of the GenAI Summary Release - OpenAI plug-in
 
 |Back to ...||Latest Version|GenAI Summary Release-OpenAI ||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.2](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Usage](usage.md)|[Downloads](downloads.md)
