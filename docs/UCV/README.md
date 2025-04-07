@@ -227,7 +227,7 @@ The GenAI Summary Release - IBM plugin for IBM DevOps Velocity is designed to st
 
 |Back to ...||GenAI summary release-IBM|Latest Version|
 | :---: | :---: | :---: | :---: | 
-|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-ibm/README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|
+|[All Plugins](../index.md)|[Top](#contents)|[Readme](ucv-ext-release-summary-ibm/README.md)|[1.0.7](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|
 
 ## GenAI summary release OpenAI
 
