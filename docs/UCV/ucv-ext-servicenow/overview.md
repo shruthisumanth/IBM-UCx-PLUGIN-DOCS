@@ -7,8 +7,7 @@ The ServiceNow plug-in provides for integration with a ServiceNow server. This p
 
 The plugin is compatible with following versions:
 
-IBM UrbanCode Velocity 2.0.x to IBM UrbanCode Velocity 4.0.x
-IBM DevOps Velocity 5.0.x or later
+IBM DevOps Velocity 5.0.10 or later
 
 ## Versions
 

@@ -10,7 +10,7 @@ The IBM DevOps Deploy plugin supports scheduled events integration which are lis
 | Name | Description |
 | --- | --- |
 | syncDeployEvent | Timed event that synchronizes with IBM DevOps Deploy |
-| Sync UrbanCode Deploy Teams | This is a timed event that syncs IBM DevOps Deploy teams. |
+| Sync Deploy Teams Event | This is a timed event that syncs IBM DevOps Deploy teams. |
 | Sync in Progress APRs | This is a timed event that syncs in Progress APRs from IBM DevOps Deploy. |
 
 ## Integration
