@@ -12,6 +12,8 @@ To download tar files directly for 1.0.3 (use below links)
  - [ucv-ext-release-summary-openai:1.0.3.tar.7z.004](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.3.tar.7z.004)
  - [ucv-ext-release-summary-openai:1.0.3.tar.7z.005](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.3.tar.7z.005)
  - [ucv-ext-release-summary-openai:1.0.3.tar.7z.006](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.3.tar.7z.006)
+ - [ucv-ext-release-summary-openai:1.0.3.tar.7z.007](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.3.tar.7z.007)
+ - [ucv-ext-release-summary-openai:1.0.3.tar.7z.008](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.3.tar.7z.008)
 
 To download tar files directly for 1.0.1 (use below links)
  - [ucv-ext-release-summary-openai:1.0.1.tar.7z.001](https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-release-summary-openai/ucv-ext-release-summary-openai:1.0.1.tar.7z.001)
