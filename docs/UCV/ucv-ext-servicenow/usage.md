@@ -222,6 +222,10 @@ Some properties might not be displayed in the user interface, to see all propert
 | Custom Field Mapping | Json | Map ServiceNow fields to HCL DevOps Velocity as a JSON Object. | No | fieldMapping |
 | Replica Server Name | String | Any non-empty string value to replica server name would enable read only replica. An Empty string will disable read only replica. | No | replicaServerName |
 
+### JSON code sample
+
+The following sample code can be used as a template to define the integration within the JSON file for a value stream. Copy and paste the template into the JSON file Integration section and make the appropriate changes.
+
 ## Example using the access key 
 
 ```
@@ -273,6 +277,7 @@ integrations": [
         } 
     }
 ]
+
 ```
 
 

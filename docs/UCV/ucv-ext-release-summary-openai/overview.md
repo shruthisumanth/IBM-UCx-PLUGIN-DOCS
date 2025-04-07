@@ -30,7 +30,7 @@ view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/
 
 ### Version 1.0.3
 
-* **Feature enhancement** : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins.
+* **Feature enhancement** : The GenAI Summary Release - OpenAI plug-in now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins.
 
 ### Version 1.0.1
 
