@@ -12,7 +12,7 @@ Must be running DevOps Velocity version 1.2.1 and later to use the plug-in.
 
 There is no install process for this plug-in. The
 Twistlock plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images
-are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available
+are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available
 versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-twistlock/tags).
 
 ## History

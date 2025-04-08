@@ -110,15 +110,16 @@ Generated summary will be stored as a field of the `release` document. The follo
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-|Name|	Type|	Description|	Required|	Property Name|
-|----|----|----|----|----|
-|Integration Name|	string|	The name for plug-in integration|	Yes	|Name|
-|LLM-Drop-Down	|array	|The LLM Provider	|Yes	|llmDropdown|
-|WATSONX_APIKEY	|string	|The Api-key for WATSONX X	|Yes	|WATSONX_APIKEY|
-|WATSONX_PROJECT_ID|	integer	|The ID of the project in WATSONX	|Yes	|WATSONX_PROJECT_ID|
-|WATSONX_URL	|string	|URL for WARSONX	|Yes	|WATSONX_URL|
+| Name | Type | Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Integration Name | String | The name for plug-in integration | Yes | name |
+| LLM | Dropdown | Select the LLM to use for generating the summary | Yes | llmDropdown |
+| watsonx.ai API Key | Secure | API key to authenticate and use with the Watsonx.ai service (https://cloud.ibm.com/docs/account?topic=account-userapikey&interface=ui) | Yes | WATSONX_APIKEY |
+| watsonx.ai project_id | Secure | Provide project_id or space_id (https://www.ibm.com/docs/en/watsonx-as-a-service?topic=projects) | Yes | WATSONX_PROJECT_ID |
+| WATSONX_URL | String | Depending on the region of your provisioned service instance, use one of the urls described in the documentation (https://ibm.github.io/watsonx-ai-python-sdk/setup_cloud.html#authentication) | Yes | WATSONX_URL |
+| Token Budget | Number | Set a monthly budget per number of tokens. If the current integration exceeds the budget, subsequent summary generation request will be rejected. | No | TOKEN_BUDGET | 
 
 
 |Back to ...||Latest Version|GenAI Summary Release-IBM|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.7](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

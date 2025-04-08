@@ -99,7 +99,7 @@ The following example can be used as a template to define the integration within
 Product"],
 "userId" : "admin",
 "accessToken" : "*access\_token*",
-"ucvAccessKey":"ucv-access-key",
+"ucvAccessKey":"IBM_DevOps_Velocity_access_key",
 
 "proxyServer": "http://123.456.1.4:1128",
 "proxyUsername":"admin",

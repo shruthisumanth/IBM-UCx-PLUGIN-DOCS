@@ -109,13 +109,14 @@ Generated summary will be stored as a field of the `release` document. The follo
 
 The following tables describe the properties used to configure the integration. Each table contains the field name when using the user interface and the property name when using a JSON file.
 
-|Name|	Type|	Description|	Required|	Property Name|
-|----|----|----|----|----|
-|Integration Name	|string	|The name for plug-in integration	|Yes	|name|
-|LLM-Drop-Down|	array	|LLM provider	|Yes	|llmDropdown|
-|OPENAI_APIKEY|	string	|The Api-key for OPENAI|	Yes	|OPENAI_APIKEY|
+| Name | Type |	Description | Required | Property Name |
+| --- | --- | --- | --- | --- |
+| Integration Name | String | The name for plug-in integration | Yes | name |
+| LLM | Dropdown | Select the LLM to use for generating the summary | Yes | llmDropdown |
+| OpenAI API Key | Secure | API key to authenticate and use with the OpenAI service | Yes | OPENAI_APIKEY |
+| Token Budget | Number | Set a monthly budget per number of tokens. If the current integration exceeds the budget, subsequent summary generation request will be rejected.| No | TOKEN_BUDGET | 
 
 
 |Back to ...||Latest Version|GenAI Summary Release-OpenAI|||
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.1](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|
+|[All Plugins](../../index.md)|[Velocity Plugins](../README.md)|[1.0.3](https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags)|[Readme](README.md)|[Overview](overview.md)|[Downloads](downloads.md)|

@@ -15,7 +15,7 @@ The GitLab plug-in provides for integration with a GitLab server. This plug-in i
 
 ## Versions
 
-There is no install process for this plug-in. The GitLab plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the UrbanCode Velolcity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-gitlab/tags).
+There is no install process for this plug-in. The GitLab plug-in is identified to DevOps Velocity as a value stream integration. DevOps Velocity plug-in images are located in DockerHub and the IBM DevOps Velocity code accesses the version that you select. To view available versions, see the [UrbanCode DockerHub](https://hub.docker.com/r/urbancode/ucv-ext-gitlab/tags).
 
 ## History
 

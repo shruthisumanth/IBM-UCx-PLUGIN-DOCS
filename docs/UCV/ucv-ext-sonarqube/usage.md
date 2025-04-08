@@ -21,7 +21,7 @@ The endpoint URL needed for the webhook is described below.
 
 | Name | Path | Method |
 | --- | --- | --- |
-| SonarQube Callback | http://*urbancodevelocity\_hostname*/reporting-consumer/pluginEndpoint/*integration\_id*/sonarqube/callback | Post |
+| SonarQube Callback | https://IBM_DevOps_velocity_hostname/reporting-consumer/pluginEndpoint/integration_id/sonarqube/callback | Post |
 
 ## Setup
 
