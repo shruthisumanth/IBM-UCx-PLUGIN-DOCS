@@ -4,7 +4,7 @@
 
 The z/OS File Source Config plugin automates uploading data sets, UNIX files, and generic artifacts from a z/OS system into a component version.
 New component versions are created based on [ship list](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=platform-ship-list-files) files.
-This plugin includes one or more steps, click Steps for step details and properties.
+
 
 ## Compatibility
 
