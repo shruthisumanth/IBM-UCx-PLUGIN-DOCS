@@ -8,8 +8,8 @@ This plugin includes one or more steps, click Steps for step details and propert
 
 ## Compatibility
 
-This plug-in requires DevOps Deploy version 7.3.2 or later and an DevOps Deploy agent on z/OS.
-This plug-in works with IBM z/OS version 1.9 or later.
+This plug-in requires DevOps Deploy version 7.1.2 or later and an DevOps Deploy agent on z/OS.
+This plug-in works with IBM z/OS version 2.4 or later.
 
 ## Installation
 
