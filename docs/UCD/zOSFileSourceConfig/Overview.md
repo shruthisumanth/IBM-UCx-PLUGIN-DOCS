@@ -20,7 +20,8 @@ See [Installing plug-ins](https://www.ibm.com/docs/en/devops-deploy/8.1.1?topic=
 
 ### Version 8
 
-* Update udclient and uDeployRestClient Fixed NoClassDefFoundError for StringUtils.
+* Update udclient and uDeployRestClient.
+* Fixed NoClassDefFoundError for StringUtils.
 
 ### Version 7
 
